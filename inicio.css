@@ -1,0 +1,73 @@
+.navi-lg{
+    background: rgba(240, 205, 9, 0.863);
+    padding: 20px 60px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(63, 55, 55, 0.801);
+    text-transform: capitalize;
+  
+    
+    
+}
+
+.navi:hover{
+    background: rgb(214, 204, 162);
+}
+
+.fus{
+
+margin-top: 155px;
+text-align: center;
+font-family: 'Cinzel', serif;
+font-style: italic;
+font-size: 125px;
+color: rgb(39, 35, 35);
+font-weight: 500;
+
+
+
+}
+body{
+background-image: url(fotos/edificio-min.jpg);
+width: 100%;
+height: 100%;
+
+
+}
+
+h1{
+    animation-duration: 5s;
+    animation-name: aparecer;
+}
+
+@keyframes aparecer{
+ 0% 
+    {opacity: 0;}
+ 
+100%
+    {opacity: 1;}   
+}
+
+.accordion{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+
+}
+div p{
+
+    font-size: 30px;
+    font-family: 'Cinzel', serif ;
+    font-weight: 500;
+    font-style:italic ;
+
+}
+
+.sen{
+    margin-top: 200px;
+    margin-left: 300px;
+    
+    width: 60%;
+    
+}
+      

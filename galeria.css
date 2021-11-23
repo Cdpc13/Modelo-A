@@ -1,0 +1,86 @@
+     .navi{
+     background: rgba(240, 205, 9, 0.863);
+     padding: 20px 60px;
+     display: inline-block;
+     text-decoration: none;
+     color: rgba(63, 55, 55, 0.801);
+     text-transform: capitalize;}
+    
+    .navi:hover{
+        background: rgb(214, 204, 162);
+    }
+
+    body{ 
+        background-image: url(fotos/oficina-min.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+
+      
+    }
+
+    h1{
+        font-size: 70px;
+        text-transform: capitalize;
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        margin-top: 120px ;
+        font-style: italic;
+        color: white;
+        font-weight: 500;
+    }
+
+    .nops{
+        display: flex;
+        background-color: rgba(240, 205, 9, 0.863);
+        padding: 10px;
+        flex-flow: wrap row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+       
+        
+    }
+
+    .nops div{
+
+        background-color: blanchedalmond;
+
+     width: 300px;
+     height: 280px;
+     margin: 10px;
+     text-align: center;
+     line-height: 75px;
+     flex-shrink: 0;
+     flex-basis: auto;
+    }
+
+    #mopo{
+        background-image: linear-gradient(to left, rgb(206, 206, 34), rgb(125, 133, 58));
+        opacity: 0.8;
+    }
+
+    .agrande:hover{
+        transform: scale(1.5,1.5);
+    }
+
+  @media screen and (max-width: 450px) {
+      .parta{
+          width: auto;
+          height: auto;
+
+      }
+      #mopo{
+          width: 100%;
+          background-color: gray;
+
+      }
+
+      .nops{
+          background-color: gray;
+      }
+
+      
+  }
+
+
+    
