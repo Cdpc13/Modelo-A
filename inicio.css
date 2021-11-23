@@ -5,6 +5,7 @@
     text-decoration: none;
     color: rgba(63, 55, 55, 0.801);
     text-transform: capitalize;
+    margin-top: 10px;
   
     
     
@@ -38,6 +39,7 @@ height: 100%;
 h1{
     animation-duration: 5s;
     animation-name: aparecer;
+    font-size: 100px;
 }
 
 @keyframes aparecer{
@@ -48,12 +50,7 @@ h1{
     {opacity: 1;}   
 }
 
-.accordion{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    
 
-}
 div p{
 
     font-size: 30px;
@@ -65,9 +62,10 @@ div p{
 
 .sen{
     margin-top: 200px;
-    margin-left: 300px;
     
-    width: 60%;
+    
+    width: 100%;
+    
     
 }
       
